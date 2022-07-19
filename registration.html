@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Enrollment</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <h2 class="heading">Student Enrollment Form</h2>
+    <div class="sef">
+        <div class="main_form">
+            <form action="/" method="post" id="Form">
+                <div class="container">
+                    <div class="labels">
+                        <label for="name" class="lab">Name</label>
+                        <label for="email" class="lab">Email</label>
+                        <label for="web_link" class="lab">Website Link</label>
+                        <label for="img_link" class="lab">Image Link</label>
+                        <label for="gender" class="lab">Gender</label>
+                        <label for="skills" class="lab">Skills</label>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="text" name="name" id="name" class="txt_inp" required />
+                        <input type="email" name="email" id="email" class="txt_inp" required />
+                        <input type="text" name="web_link" id="web_link" class="txt_inp" />
+                        <input type="text" name="img_link" id="img_link" class="txt_inp" />
+                        <select name="gender" id="gender" class="sel">
+                            <option value="NA" selected>Select Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <div id="skills">
+                            <input type="checkbox" value="HTML" name="html" id="html" class="check" />
+                            <label for="html" class="check_lab">HTML</label>
+
+                            <input type="checkbox" value="CSS" name="css" id="css" class="check" />
+                            <label for="css" class="check_lab">CSS</label>
+
+                            <input type="checkbox" value="JavaScript" name="javascript" id="javascript" class="check" />
+                            <label for="javascript" class="check_lab">JavaScript</label>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="btn" id="form_sub">Enroll Student</button>
+                    <button type="reset" class="btn" id="reset">Clear</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="students">
+            <h3 id="enrStudents">Enrolled Students</h3>
+            <div class="scroll-pad">
+            <table id="table">
+                <tr class="tabRow">
+                    <th>Description</th>
+                    <th>Image</th>
+                </tr>
+                
+                
+            </table>
+        </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

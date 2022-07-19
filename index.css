@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Montserrat:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: snow;
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 15px;
+    /* background-color: #ada1ec; */
+    border-bottom: 3px solid #0e0202;
+}
+
+.sef{
+    display: flex;
+}
+
+.main_form{
+    margin: 50px 0 0 20%;
+    width: fit-content;
+}
+
+.container{
+    display: flex;
+}
+
+.inputs{
+    margin-left: 50px;
+}
+
+.lab{
+    display: block;
+    margin-bottom: 49px;
+    font-size: 20px;
+}
+
+.labels:nth-child(1){
+    margin-top: 8px;
+}
+
+ .txt_inp, .sel{
+    display: block;
+    margin-bottom: 30px;
+    padding: 8px;
+    width: 280px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+#gender option{
+    padding: 3px;
+    background-color: aliceblue;
+    appearance: none;
+}
+
+div#skills {
+    margin-top: 39px;
+}
+
+.check{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.check_lab{
+    margin-right: 30px;
+}
+
+.btn{
+    padding: 5px;
+    width: 135px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.students{
+    margin: 20px 0 0 110px;
+}
+
+.students h3{
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+table, th, td{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    padding: 6px 15px;
+}
+
+.desc{
+    margin: 5px 75px 0px 0px;
+}
+
+.desc p{
+    margin-bottom: 5px;
+}
+
+#Sname{
+    font-weight: 1000;
+
+}
+
+.profImg{
+    width: 90px;
+    height: 90px;
+    margin: 0 12px;
+}
+
+tr>th{
+    border-top: 2.36px solid black;
+    text-align: left;
+    background-color: #ada1ec;
+
+}
+
+.tabRow, #enrStudents{
+    display: none;
+}
+
+
+
+
+.scroll-pad{
+    margin: 10px 0px;
+    height: 421px;
+    overflow: auto;
+  
+  }
+
+  .scroll-pad::-webkit-scrollbar{
+    width: 11px;
+  }
+  
+  .scroll-pad::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+}  
+
+  .scroll-pad::-webkit-scrollbar-thumb {
+    background-color: #110e0ec7;
+    outline: 1px solid #2c3034;
+    border-radius: 10px;
+  }
